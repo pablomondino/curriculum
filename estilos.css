@@ -1,0 +1,222 @@
+
+
+/*
+///////////////////////
+Barra navegacion navbar
+///////////////////////
+*/
+
+.navbar {
+  
+    padding: 2rem;
+    background-color: rgb(172, 172, 236);
+}
+  
+.navbar-collapse{
+    
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+ 
+@media screen and (max-width: 767px) {
+        .navbar-brand{
+            display: none;
+        }
+        
+}
+
+
+/*
+////////////////////
+Seccion Principal  --  hero  
+////////////////////
+*/
+
+
+.principal{
+    min-height: 450px;
+    text-align: center;
+    background-color:white;
+}
+
+.principal-principal{
+    padding: 2 rem;
+
+}
+
+.principal-imagen{
+          
+           width: 200px;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+.principal-inferior-imagen{
+
+    width: 400px;
+    height: 800px;
+}
+
+/*
+@media screen and (min-width: 700px) {
+    .principal-inferior-imagen{
+        max-width: 600px;
+    }
+    
+}  
+esto no esta funcionando
+
+*/
+
+
+
+/*
+//////////////////////////////
+estilos generales para aplicar a disintos elementos
+//////////////////////////////
+*/
+
+section{
+    
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px; /*agregue para separar arriba*/
+
+
+}
+
+section h1 {
+    font-family: 'IBM Plex Serif', serif;
+    font-size: 2.5 rem;
+    color: rgb(7, 7, 7);
+}
+
+section h2{
+    color: grey;
+    font-size: 2rem;
+    font-family: 'IBM Plex Serif', serif;
+}
+.section-oscura{
+    display: flex;
+    padding: 2rem;
+    justify-content: center;
+    background-color: black;
+    color: white;
+
+
+}    /*usé en sobremí*/
+
+.section-clara{
+background-color: aliceblue;
+color: black;
+
+}
+
+.section-titulo{
+   /* color: white;*/
+    font-size: 2.5rem;
+    padding: 15px 0;
+    font-family: 'Gochi Hand', cursive;
+    text-align: center;
+}
+/* usé en sobre mi*/
+/* usé en experiencia*/
+
+/*
+//////////////////////////////////
+sobre mí
+//////////////////////////////////
+*/
+
+
+.sobre-mi{
+height: auto;
+    /*height: 500px;*/
+    padding: px;
+   
+}
+
+.sobre-mi .contenedor {
+   /* background-color: orange;*/
+    max-width: 700px;
+
+}
+
+.section-texto{
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+/* 
+///////////////////////
+experiencia 
+//////////////////*/
+
+.experiencia{
+
+padding: 40px;
+} 
+
+.experiencia .row div{
+    height: auto;
+  /*  background-color: blueviolet;*/
+    border: 3px solid black;
+    margin: 10px 0;  
+}
+
+.experiencia-titulo{
+    font-size: 25px;
+font-weight: bold;
+/*margin: 10px 0;*/
+
+}
+
+/* 
+///////////////////////
+Habilidades
+//////////////////*/
+
+.tilulo-blanco{
+    color: white;
+}
+
+
+.cuadrado{
+    height: 50px;
+    margin: 20px 0;
+    padding: 20px 0;
+}
+
+
+.formulario{
+    height:auto;
+    background-color: grey;
+    display: flex;
+    color: white;
+    margin: 10px;
+    border: 5px solid black;
+ 
+}
+
+.titulo-formulario{
+    text-align: center;
+ 
+   
+    height: 100px;
+   color:white;
+    color: blue0;
+ 
+    justify-content: center;
+}
+
+.boton{
+    padding: 20px;
+    border: 20px;
+color: blue;
+
+}
